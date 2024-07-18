@@ -1,0 +1,28 @@
+{
+  "dementiaApp": {
+    "blog": {
+      "home": {
+        "title": "Blogs",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Blog erstellen",
+        "createOrEditLabel": "Blog erstellen oder bearbeiten",
+        "notFound": "Keine Blogs gefunden"
+      },
+      "created": "Blog erstellt mit ID {{ param }}",
+      "updated": "Blog aktualisiert mit ID {{ param }}",
+      "deleted": "Blog gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Blog {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Blog"
+      },
+      "id": "ID",
+      "content": "Content",
+      "dateTime": "Date Time",
+      "vote": "Vote",
+      "auther": "Auther",
+      "comment": "Comment"
+    }
+  }
+}

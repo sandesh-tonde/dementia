@@ -6,8 +6,10 @@ import { NavLink as Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const BrandIcon = props => (
-  <div {...props} className="brand-icon">
-    <img src="content/images/logo.png" alt="Logo" />
+  <div className="navbar-header">
+    <a className="navbar-brand" href="index.html">
+      <img src="content/images/logo.png" alt="Image" />
+    </a>
   </div>
 );
 

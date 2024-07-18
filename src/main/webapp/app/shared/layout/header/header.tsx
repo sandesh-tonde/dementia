@@ -40,9 +40,10 @@ const Header = (props: IHeaderProps) => {
     <div id="app-header">
       {renderDevRibbon()}
       <LoadingBar className="loading-bar" />
-      <Navbar data-cy="navbar" dark expand="md" fixed="top" className="bg-primary">
-        <NavbarToggler aria-label="Menu" onClick={toggleMenu} />
+      <Navbar className="navbar navbar-default" Style="border-style: none;" role="navigation">
         <Brand />
+        <NavbarToggler aria-label="Menu" onClick={toggleMenu} />
+
         <Collapse isOpen={menuOpen} navbar>
           <Nav id="header-tabs" className="ms-auto" navbar>
             <Home />

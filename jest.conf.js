@@ -19,7 +19,7 @@ module.exports = {
   coverageDirectory: '<rootDir>/target/test-results/',
   testMatch: ['<rootDir>/src/main/webapp/app/**/@(*.)@(spec.ts?(x))'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-  coveragePathIgnorePatterns: ['<rootDir>/src/test/javascript/'],
+  coveragePathIgnorePatterns: ['<rootDir>/src/test/javascript/', '<rootDir>/src/main/webapp/content/'],
   moduleNameMapper: mapTypescriptAliasToJestAlias({
     '\\.(css|scss)$': 'identity-obj-proxy',
     sinon: require.resolve('sinon/pkg/sinon.js'),
@@ -29,7 +29,7 @@ module.exports = {
     ['jest-junit', { outputDirectory: './target/test-results/', outputName: 'TESTS-results-jest.xml' }],
     ['jest-sonar', { outputDirectory: './target/test-results/jest', outputName: 'TESTS-results-sonar.xml' }],
   ],
-  testPathIgnorePatterns: ['<rootDir>/node_modules/'],
+  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/src/main/webapp/content/'],
   setupFiles: ['<rootDir>/src/main/webapp/app/setup-tests.ts'],
   globals: {
     I18N_HASH: 'generated_hash',

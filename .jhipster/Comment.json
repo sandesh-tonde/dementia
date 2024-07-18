@@ -1,0 +1,32 @@
+{
+  "annotations": {
+    "changelogDate": "20240718135334"
+  },
+  "fields": [
+    {
+      "fieldName": "commentText",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "dateTime",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Comment",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "id": true,
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "comment",
+      "relationshipName": "addedBy",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}

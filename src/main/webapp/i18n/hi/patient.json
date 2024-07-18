@@ -1,0 +1,36 @@
+{
+  "dementiaApp": {
+    "patient": {
+      "home": {
+        "title": "Patients",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Patient बनाएँ",
+        "createOrEditLabel": "Patient बनाएँ या संपादित करें",
+        "notFound": "No Patients found"
+      },
+      "created": "एक नया Patient [identifier: {{ param }}] तैयार है",
+      "updated": "एक Patient [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Patient [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Patient [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Patient"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "age": "Age",
+      "email": "Email",
+      "gender": "Gender",
+      "relationship": "Relationship",
+      "stage": "Stage",
+      "caregiverNotes": "Caregiver Notes",
+      "primaryConcerns": "Primary Concerns",
+      "medicalHistory": "Medical History",
+      "medicationDetails": "Medication Details",
+      "emergencyContact": "Emergency Contact",
+      "user_petient": "User Petient"
+    }
+  }
+}
